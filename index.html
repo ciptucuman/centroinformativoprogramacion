@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Centro Informativo</title>
+
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+
+<body class="">
+    <header id="inicio" class="header">
+        <!-- NAV MENU -->
+        <div class="header__contenidoVideo">
+            <nav class="header__nav">
+                <a href="#" class="logo">Tecnicatura en Programación 2021</a>
+
+                <div id="menu-links" class="header__nav__links">
+                    <!-- <a href="#inicio">Inicio</a> -->
+                    <a href="#materias">Materias</a>
+                    <a href="#clases">Clases</a>
+                    <a href="#">Softwares</a>
+                </div>
+
+                <a id="menu-icon" href="#" class="header__nav__icon icon">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+
+            <!-- TITULO -->
+            <div class="header__titulos">
+                <h1>Centro Informativo</h1>
+                <p>Tecnicatura en Programación 2021</p>
+            </div>
+        </div>
+
+        <video src="src/video/bg-head-video.mp4" loop autoplay control muted></video>
+    </header>
+
+    <section class="redes">
+        <!-- <div class="redes__filtro">
+            
+        </div> -->
+
+        <h2>Ingresá a Nuestras Redes</h2>
+
+        <div class="redes__imagenes">
+            <a href="https://discord.gg/ax7axtw5bP" target="_blank" rel="noopener" class="redes__contenedor-imagen"><img id="discord" src="src/img/bxl-discord-alt.svg" alt="Discord"></a>
+            <a href="https://www.youtube.com/channel/UCt7LZrop1Q3B4uSEL7ElwNw" target="_blank" rel="noopener" class="redes__contenedor-imagen"><img id="youtube" src="src/img/bxl-youtube.svg" alt="Youtube"></a>
+            <a href="#" target="_blank" rel="noopener" class="redes__contenedor-imagen"><img id="whatsapp" src="src/img/bxl-whatsapp.svg" alt="WhatsApp"></a>
+        </div>
+
+        <p class="redes__info">Solicitá tu acceso a nuestro grupo de WhatsApp a través de <a href="https://discord.gg/ax7axtw5bP" target="_blank" rel="noopener">Discord</a>.</p>
+    </section>
+
+    <section id="materias" class="materias">
+        <h2>Materias</h2>
+
+        <p class="materias__horarios-mobile">
+            <img src="src/img/horario_lunes.svg" alt="Horario Lunes">
+            <img src="src/img/horario_martes.svg" alt="Horario Martes">
+            <img src="src/img/horario_miercoles.svg" alt="Horario Miercoles">
+            <img src="src/img/horario_jueves.svg" alt="Horario Jueves">
+            <img src="src/img/horario_viernes.svg" alt="Horario Viernes">
+        </p>
+    </section>
+
+    <section id="clases" class="clases">
+        <h2>Clases Grabadas</h2>
+
+        <!-- 
+                Estructura basica de video clases 
+                <div class="acordeon__contenido__enlace">
+                    <p>Clase </p>
+                    <a href="" target="_blank" rel="noopener">Ver Video</a>
+            </div>
+            <hr>
+        -->
+
+        <div class="acordeon clases__acordeon">
+            <div class="acordeon__contenedor">
+                <div class="acordeon__titulo">Arq. y Sistemas Operativos</div>
+                <div class="acordeon__contenido">
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 25/08/2021</p>
+                        <a href="https://youtu.be/RqdUdTezeDQ" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 01/09/2021</p>
+                        <a href="https://youtu.be/r7UpOqhkul8" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="acordeon__contenedor">
+                <div class="acordeon__titulo">Estadística</div>
+                <div class="acordeon__contenido">
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 23/08/2021</p>
+                        <a href="https://youtu.be/Dd1I_Gd_Q6E" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 30/08/2021</p>
+                        <a href="https://youtu.be/eZtEQKUW1MU" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 31/08/2021</p>
+                        <a href="https://youtu.be/EQiZ3zRZrpc" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="acordeon__contenedor">
+                <div class="acordeon__titulo">Inglés II</div>
+                <div class="acordeon__contenido">
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 27/08/2021</p>
+                        <a href="https://youtu.be/trE12Y123Sw" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="acordeon__contenedor">
+                <div class="acordeon__titulo">Laboratorio II</div>
+                <div class="acordeon__contenido">
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 30/08/2021</p>
+                        <a href="https://youtu.be/ql5m0_v0V2A" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 02/09/2021</p>
+                        <a href="https://youtu.be/Hw1nJ4AD_Rs" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 06/09/2021</p>
+                        <a href="https://youtu.be/a8TehPSqbDI" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="acordeon__contenedor">
+                <div class="acordeon__titulo">Metodología de la Investigación</div>
+                <div class="acordeon__contenido">
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 25/08/2021</p>
+                        <a href="https://youtu.be/wEcEDNZOOMA" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 01/09/2021</p>
+                        <a href="https://youtu.be/nuDpIyy-oJo" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="acordeon__contenedor">
+                <div class="acordeon__titulo">Programación II</div>
+                <div class="acordeon__contenido">
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 24/08/2021</p>
+                        <a href="https://youtu.be/RqdUdTezeDQ" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 27/08/2021</p>
+                        <a href="https://youtu.be/pfSfDVHcLL4" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 31/08/2021</p>
+                        <a href="https://youtu.be/PcaoVwN-VjM" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                    <div class="acordeon__contenido__enlace">
+                        <p>Clase 03/09/2021</p>
+                        <a href="https://youtu.be/de2wPsVpzVU" target="_blank" rel="noopener">Ver Video</a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">¿Te gustaría comentarnos algo?</p>
+
+        <div class="footer__contacto">
+            <a href="https://discord.gg/Wr5bZMPPFB" target="_blank" rel="noopener">
+                <p>Discord</p>
+            </a>
+        </div>
+
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
